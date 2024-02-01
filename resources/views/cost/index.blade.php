@@ -25,7 +25,7 @@
                 </div>
                 <div class="card-body pt-0">
                     <h2 class="">R$ {{$exit}}
-                </div>/h2>
+                </div></h2>
             </div>
             </div>
             <div class="card text-bg-light mb-3 px-5" style="min-width: 22rem;">

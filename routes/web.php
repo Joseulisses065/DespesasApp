@@ -14,8 +14,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('cost.index');
-});
+Route::get('/', [CostController::class,'index']);
 
 Route::resource('cost',CostController::class);
